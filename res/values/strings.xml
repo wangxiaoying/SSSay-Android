@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SSSay</string>
+
+    <string name="register_title">Register</string>
+    <string name="register_try">Try</string>
+    <string name="register_username">Username</string>
+    <string name="register_password">Password</string>
+    <string name="register_password_confirm">Confirm</string>
+    <string name="register_submit">Register</string>
+    <string name="register_go_login">I have an account</string>
+    <string name="register_hint_illegal">Illegal Input</string>
+    
+    <string name="login_title">Login</string>
+    <string name="login_try">Try</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_submit">Login</string>
+    <string name="login_hint_illegal">Illegal Input</string>
+    
+    <string name="all_doing_title">AllDoing</string>
+    <string name="all_doing_tab_all">All</string>
+    <string name="all_doing_tab_popular">Popular</string>
+    <string name="all_doing_tab_search">Search</string>
+    
+    <string name="user_main_page_title">User Main Page</string>
+    <string name="user_main_page_following">FOLLOWING</string>
+    <string name="user_main_page_followed">FOLLOWERS</string>
+    <string name="user_main_page_logout">Logout</string>
+    <string name="user_main_page_doing">RECORDS</string>
+    <string name="user_main_page_relation_0">Follow+</string>
+    <string name="user_main_page_relation_1">Unfollow</string>
+    
+    <string name="doing_history_title">Doing History</string>
+    
+    <string name="get_following_title">All Following</string>
+    
+    <string name="get_followed_title">All Followed</string>
+    
+    <string name="upload_portrait_title">Upload Portrait</string>
+    
+    <string name="change_password_title">Change Password</string>
+    <string name="change_password_wrong">Wrong Password</string>
+    <string name="change_password_not_fit">Passwords Are Not The Same</string>
+    <string name="change_password_success">Password Is Changed</string>
+    <string name="change_password_old_password">Old Password</string>
+    <string name="change_password_new_password">New Password</string>
+    <string name="change_password_confirm_password">Confirm New Password</string>
+    <string name="change_password_change_password">Change Password</string>
+    
+    <string name="current_doing_title">Current Doing</string>
+    <string name="current_doing_iam">I\'m</string>
+    <string name="current_doing_record">Record</string>
+    <string name="current_doing_listen">Others\' Voice</string>
+    <string name="current_doing_stop">Finish</string>
+
+    <string name="record_title">Record</string>
+    <string name="record_start">Record</string>
+    <string name="record_status_recording">Recording&#8230;</string>
+    <string name="record_status_ready">Ready</string>
+    <string name="record_stop">Stop Recording</string>
+    
+    <string name="play_voice_title">Others\' Voice</string>
+    <string name="play_voice_iam">while doing</string>
+    <string name="play_voice_next">Try another</string>
+    <string name="play_voice_stop">Stop Playing</string>
+    <string name="play_voice_name_temp">Loading User</string>
+    <string name="play_voice_doing_temp">Loading Doing</string>
+
+    <!-- Public variables -->
+    <string name="action_username">User</string>
+    <string name="loading">loading</string>
+    <string name="people_unit">People</string>
+    <string name="action_logout">Logout</string>
+</resources>

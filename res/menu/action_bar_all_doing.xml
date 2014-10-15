@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/all_doing_action_pers"
+        android:showAsAction="always"
+        android:icon="@drawable/dot"
+        android:title="@string/action_username">
+        <menu>
+            <item
+                android:id="@+id/all_doing_action_person"
+                android:showAsAction="always"
+                android:title="@string/action_username"/>
+            <item
+                android:id="@+id/all_doing_action_logout"
+                android:showAsAction="always"
+                android:title="@string/action_logout"/>
+        </menu>
+    </item>
+
+</menu>

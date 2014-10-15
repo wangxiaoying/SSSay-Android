@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.momoz.sssay"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> 
+    <uses-permission android:name="android.permission.INTERNET" /> 
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> 
+	<uses-permission android:name="android.permission.CAMERA"/>  
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <activity 
+            android:name="com.momoz.sssay.RegisterActivity" 
+            android:label="@string/register_title"
+            android:theme="@android:style/Theme.Holo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="com.momoz.sssay.LoginActivity" 
+            android:label="@string/login_title"
+            android:theme="@android:style/Theme.Holo">
+			
+        </activity>
+        
+        <activity 
+            android:name="com.momoz.sssay.TestPageActivity" 
+            android:label="TestPage"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        
+        <activity 
+            android:name="com.momoz.sssay.UserMainPageActivity" 
+            android:label="@string/user_main_page_title"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        
+        <activity 
+            android:name="com.momoz.sssay.AllDoingActivity" 
+            android:label="@string/all_doing_title"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        
+        <activity 
+            android:name="com.momoz.sssay.CurrentDoingActivity" 
+            android:label="@string/current_doing_title"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+       
+        <activity 
+            android:name="com.momoz.sssay.DoingHistoryActivity"
+            android:label="@string/doing_history_title"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        
+        <activity 
+            android:name="com.momoz.sssay.GetFollowingActivity"
+            android:label="@string/get_following_title"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        
+        <activity 
+            android:name="com.momoz.sssay.GetFollowedActivity"
+            android:label="@string/get_followed_title"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        
+        <activity 
+            android:name="com.momoz.sssay.RecordActivity"
+            android:label="@string/record_title"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        
+        <activity 
+            android:name="com.momoz.sssay.PlayVoiceActivity"
+            android:label="@string/play_voice_title"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        
+		<activity
+            android:name="com.momoz.sssay.UploadPortraitActivity"
+            android:label="@string/upload_portrait_title"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+        
+		<activity 
+            android:name="com.momoz.sssay.ChangePasswordActivity"
+            android:label="@string/change_password_title"
+            android:theme="@android:style/Theme.Holo">
+        </activity>
+    </application>
+
+</manifest>
